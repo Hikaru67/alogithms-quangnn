@@ -1,7 +1,6 @@
 <?php
 
 $array= [3,7,8,2,1,6];
-
 $n = count($array);
 
 printf("Danh sach phan tu trong mang ban dau:\n");

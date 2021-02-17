@@ -14,8 +14,6 @@ function insertIntoArray(&$LA){
     $item = 10; $k = 3; $n = count($LA);
     $j = $n-1;
 
-    $n++;
-
     while( $j >= $k){
         $LA[$j+1] = $LA[$j];
         $j--;
@@ -66,6 +64,7 @@ function searchInArray(&$LA, $k){
         }
     }
     echo "Khong tim thay";
+    return 0;
 }
 
 //Giả sử LA là một mảng tuyến tính có N phần tử và K là số nguyên dương thỏa mãn K <= N. Dưới đây là giải thuật để update giá trị phần tử tại vị trí K của mảng LA.
