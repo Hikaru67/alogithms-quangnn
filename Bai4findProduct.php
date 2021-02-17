@@ -1,4 +1,5 @@
 <?php
+
 $Products = [
     [ 'name'  => 'CPU', 'price'  => 750, 'quality'  => 10, 'categoryId'  => 1],
     [ 'name'  => 'RAM', 'price'  => 50, 'quality'  => 2, 'categoryId'  => 2],
