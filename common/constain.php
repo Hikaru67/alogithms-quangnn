@@ -8,13 +8,13 @@ define('PRODUCTS', [
     [ 'name'  => 'Mouse', 'price'  => 25, 'quality'  => 50, 'categoryId'  => 4],
     [ 'name'  => 'VGA', 'price'  => 60, 'quality'  => 35, 'categoryId'  => 3],
     [ 'name'  => 'Monitor', 'price'  => 120, 'quality'  => 28, 'categoryId'  => 2],
-    [ 'name'  => 'Case', 'price'  => 120, 'quality'  => 28, 'categoryId'  => 5]
+    [ 'name'  => 'Case', 'price'  => 120, 'quality'  => 28, 'categoryId'  => 4]
 ]);
 
 define('CATEGORY', [	['id'=> 1, 'name' => 'Comuter'],
 	['id'=> 2, 'name' => 'Memory'],
 	['id'=> 3, 'name' => 'Card'],
-	['id'=> 4, 'name' => 'Acsesory'],
+	['id'=> 4, 'name' => 'Accessory'],
 ]);
 			
 define('MENU', [

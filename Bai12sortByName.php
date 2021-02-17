@@ -13,7 +13,6 @@ function sortByName(&$listProduct){
         $valueToInsert = $listProduct[$i];
         $holePosition = $i;
         while($holePosition > 0 && strcmp($listProduct[$holePosition-1]['name'], $valueToInsert['name'])>0){
-            echo strcmp($listProduct[$holePosition-1]['name'], $valueToInsert['name']." ");
             $listProduct[$holePosition] = $listProduct[$holePosition-1];
             $holePosition--;
         }
