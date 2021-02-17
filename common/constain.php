@@ -11,7 +11,7 @@ define('PRODUCTS', [
     [ 'name'  => 'Case', 'price'  => 120, 'quality'  => 28, 'categoryId'  => 4]
 ]);
 
-define('CATEGORY', [	['id'=> 1, 'name' => 'Comuter'],
+define('CATEGORYS', [	['id'=> 1, 'name' => 'Comuter'],
 	['id'=> 2, 'name' => 'Memory'],
 	['id'=> 3, 'name' => 'Card'],
 	['id'=> 4, 'name' => 'Accessory'],

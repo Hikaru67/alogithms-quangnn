@@ -13,8 +13,7 @@ function swap(&$firstVariable, &$secondVariable){
     $secondVariable = $tempVariable;
 }
 
-function getCategoryNameById($categoryId){
-    $listCategory = CATEGORY;
+function getCategoryNameById($listCategory, $categoryId){
     foreach ($listCategory as $category){
         if($category['id'] === $categoryId){
             return $category['name'];
