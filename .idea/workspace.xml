@@ -3,17 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="36a414e9-9126-4ac9-a387-bccf7d302b48" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Bai10selectionSort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai11sortByPrice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai12sortByName.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Bai9insertionSort.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/autoload.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/constain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/helper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bai1Notion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1notionOfAlgorithms.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bai2structureArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bai2structureArray.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bai4findProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bai4findProduct.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bai7selectionSort.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Bai8bubbleSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bai8bubbleSort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/helper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oapq0bkTg2eJE7YYTpTebAe1kZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613534742800</updated>
-      <workItem from="1613534743902" duration="13637000" />
+      <workItem from="1613534743902" duration="15804000" />
     </task>
     <servers />
   </component>
