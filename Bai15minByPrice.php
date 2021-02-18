@@ -8,15 +8,13 @@ $listCategory = CATEGORYS;
 
 function minByPrice($listProduct){
     $amountProduct = count($listProduct);
-    $minPriceProduct = $listProduct[0]['price'];
-    $indexMinPriceProduct = 0;
+    $indexMinPrice = 0;
     for($i=0; $i<$amountProduct; $i++){
-        if($listProduct[$i]['price']<$minPriceProduct){
-            $minPriceProduct = $listProduct[$i]['price'];
-            $indexMinPriceProduct = $i;
+        if($listProduct[$i]['price']<$listProduct[$indexMinPrice]['price']){
+            $indexMinPrice = $i;
         }
     }
-    return $listProduct[$indexMinPriceProduct];
+    return $listProduct[$indexMinPrice];
 }
 
 print_r(minByPrice($listProduct));

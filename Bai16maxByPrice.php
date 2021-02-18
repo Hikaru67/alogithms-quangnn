@@ -8,15 +8,13 @@ $listCategory = CATEGORYS;
 
 function maxByPrice($listProduct){
     $amountProduct = count($listProduct);
-    $maxPriceProduct = $listProduct[0]['price'];
-    $indexMaxPriceProduct = 0;
+    $indexMaxPrice = 0;
     for($i=0; $i<$amountProduct; $i++){
-        if($listProduct[$i]['price']>$maxPriceProduct){
-            $minPriceProduct = $listProduct[$i]['price'];
-            $indexMinPriceProduct = $i;
+        if($listProduct[$i]['price']>$listProduct[$indexMaxPrice]['price']){
+            $indexMaxPrice = $i;
         }
     }
-    return $listProduct[$indexMaxPriceProduct];
+    return $listProduct[$indexMaxPrice];
 }
 
 print_r(maxByPrice($listProduct));

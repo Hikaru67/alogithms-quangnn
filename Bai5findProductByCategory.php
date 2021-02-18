@@ -12,11 +12,14 @@ $Products = [
 ];
 
     function findProduct($listProduct, $categoryId){
+        $products = array();
         foreach ($listProduct as  $product){
-            if($product['categoryId'] == $categoryId) return $product;
+            if($product['categoryId'] == $categoryId){
+                $products[] = $product;
+            }
         }
-        return 0;
+        return $products;
     }
 
-    var_dump(findProduct($Products, 4));
+    var_dump(findProduct($Products, 2));
 

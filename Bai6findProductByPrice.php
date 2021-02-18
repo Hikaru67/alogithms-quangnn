@@ -14,7 +14,7 @@ $Products = [
 function findProductByPrice($listProduct, $price){
     $products = array();
     foreach ($listProduct as  $product){
-        if($product['price'] <= $price) $products = $product;
+        if($product['price'] <= $price) $products[] = $product;
     }
     return $products;
 }
