@@ -57,7 +57,22 @@ define('MENU', [
         'id'=> 8,
         'title'=> "Giao thông ùn tắc",
         'parent_id'=> 4
-    ]
+    ],
+    [
+        'id'=> 9,
+        'title'=> "Môi trường đô thị",
+        'parent_id'=> 5
+    ],
+    [
+        'id'=> 10,
+        'title'=> "Giao thông ùn tắc",
+        'parent_id'=> 4
+    ],
+    [
+        'id'=> 11,
+        'title'=> "Môi trường đôdas thị",
+        'parent_id'=> 5
+    ],
 ]);
 
 

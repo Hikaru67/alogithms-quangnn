@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36a414e9-9126-4ac9-a387-bccf7d302b48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai15minByPrice.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bai15minByPrice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai16maxByPrice.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bai16maxByPrice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bai5findProductByCategory.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Bai5findProductByCategory.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613534742800</updated>
       <workItem from="1613534743902" duration="18830000" />
-      <workItem from="1613612031548" duration="304000" />
+      <workItem from="1613612031548" duration="948000" />
+      <workItem from="1614046722177" duration="19000" />
     </task>
     <servers />
   </component>
